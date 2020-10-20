@@ -1,0 +1,46 @@
+body {
+  background-color: #c3cfe2;
+  padding: 15px;
+}
+
+.btn-group {
+  display: block;
+}
+
+.button {
+  border: 2px solid;
+  padding: 25px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.button__facebook {
+  background-color: #3b5998;
+}
+
+.button__twitter {
+  background-color: #00aced;
+}
+
+.button__linkedin {
+  background-color: #007bb6;
+}
+
+/*.button__social-media {
+    @include button;
+    
+    color: white;
+    }
+
+}
+
+.button__social-media--facebook::before {
+    content: "\f39e";
+}*/
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+/*# sourceMappingURL=styles.css.map */
